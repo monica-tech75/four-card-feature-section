@@ -1,0 +1,41 @@
+:root {
+  --ff-sans: 'Poppins', sans-serif;
+  --fw-light: 200;
+  --fw-normal: 400;
+  --fw-bold: 600;
+
+  --fs-400: 0.9275rem;
+  --fs-500: 1.25;
+  --fs-600: 1.65rem;
+  --fs-900: 2.5rem;
+
+  --clr-neutral-900: hsl(234, 12%, 34%);
+  --clr-neutral-400: hsl(229, 6%, 66%);
+  --clr-neutral-100: hsl(0, 0%, 98%);
+  
+  --clr-teal: hsl(180, 58%, 56%);
+  --clr-red: hsl(0, 70%, 60%);
+  --clr-blue: hsl(212, 75%, 62%);
+  --clr-yellow: hsl(34, 89%, 65%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.wrapper-narrow {
+  text-align: center;
+}
+
+.layout-flexgrid {
+  display: flex;
+  align-items: center;
+}
+
+.col {
+  border: 1px solid gray;
+  
+}
+
