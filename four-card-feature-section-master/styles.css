@@ -100,9 +100,7 @@ header > p {
   align-content: center;
 }
 
-img {
-  max-width: 20%;
-}
+
 
 .card {
   padding: 2rem;
@@ -145,12 +143,37 @@ img {
   margin-top: 1rem;
 }
 
+img {
+  max-width: 20%;
+}
+
 .card1 img,
 .card2 img,
 .card3 img,
 .card4 img {
     align-self: flex-end;
     
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: end;
+  margin-right: 3rem;
+}
+footer .attribution a{
+  font-size: 1.1rem;
+  text-decoration: none;
+  font-weight: var(--fw-bold);
+  color:var(--clr-teal)
+}
+
+footer .author a{
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-weight: var(--fw-bold);
+  color:var(--clr-blue)
 }
 
 @media screen and (max-width: 700px){
@@ -163,7 +186,5 @@ img {
   .card2 {
     margin-bottom: - var(--gap);
   }
- 
-
 }
 
