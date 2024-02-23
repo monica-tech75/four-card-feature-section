@@ -62,12 +62,7 @@ h2 {
   font-weight: var(--fw-bold);
 }
 
-.wrapper {
-  padding-inline: 2rem;
-  max-width: 1100px;
-  margin-inline: auto;
-  padding-bottom: 5rem;
-}
+
 
 .wrapper--narrow {
   text-align: center;
@@ -83,8 +78,18 @@ header > p {
   font-size: var(--fs-500);
 }
 
+          /*  MAIN CONTENT  */
+
+.wrapper {
+  
+  padding-inline: 2rem;
+  max-width: 800px;
+  margin-inline: auto;
+  padding-bottom: 5rem;
+}
+
 .layout-flexgrid {
-  --gap: 2rem;
+  --gap: 1.5rem;
   display: flex;
   gap: var(--gap);
   
@@ -95,7 +100,7 @@ header > p {
 }
 
 .col {
-  display: grid;  
+  display: grid;
   gap: var(--gap);
   align-content: center;
 }
@@ -103,7 +108,8 @@ header > p {
 
 
 .card {
-  padding: 2rem;
+  
+  padding: 1rem;
   --br: .325rem;
   border-top: var(--br) solid;
   background-color: hsl(0, 0%, 100%);
@@ -114,7 +120,7 @@ header > p {
 .card1 {
   border-color: var(--clr-teal);
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 
@@ -122,7 +128,7 @@ header > p {
 .card2 {
   border-color: var(--clr-red);
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .card3{
@@ -144,7 +150,7 @@ header > p {
 }
 
 img {
-  max-width: 20%;
+  max-width: 15%;
 }
 
 .card1 img,
